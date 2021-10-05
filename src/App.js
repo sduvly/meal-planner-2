@@ -1,6 +1,8 @@
 import RecipeCard from "./RecipeCard"
 import{useState, useEffect} from "react"
 
+
+
 function App() {
   const [isrecipe, setIsrecipe] = useState([])
 
@@ -16,7 +18,7 @@ function App() {
 
     <div className="App">
      
-     <RecipeCard isrecipe={isrecipe}/>
+      {isrecipe.map(r => <RecipeCard key={r.id}meal={r.Meal} category={r.Category} area={r.Area} instructions={r.Instructions} mealthumb={r.MealThumb} video={r.Video} ingredient={r.Ingredient} source={r.Source}/>)}
     </div>
     
     
