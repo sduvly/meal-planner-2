@@ -5,10 +5,12 @@ function App() {
   const [isrecipe, setIsrecipe] = useState([])
 
   useEffect(() => {
-    fetch("www.themealdb.com/api/json/v1/1/search.php?s=")
+    fetch("http://localhost:3000/meals")
     .then(resp => resp.json())
-    .then(data => console.log(data))
-  })
+    .then(data => {console.log(data)
+      setIsrecipe(data)
+    })
+  }, [])
 
   return (
 
