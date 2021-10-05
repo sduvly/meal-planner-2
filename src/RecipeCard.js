@@ -1,5 +1,9 @@
 
-function RecipeCard(){
- 
+function RecipeCard({isrecipe}){
+return(
+  <>
+
+  </>
+)
 }
 export default RecipeCard;
