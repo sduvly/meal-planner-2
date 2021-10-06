@@ -1,24 +1,25 @@
-import RecipeCard from "./RecipeCard"
+
 import{useState, useEffect} from "react"
-
-
+import CardContainer from "./CardContainer"
 
 function App() {
   const [isrecipe, setIsrecipe] = useState([])
-
+  const [isSearch, setIsSearch] = useState('')
+  
   useEffect(() => {
-    fetch("http://localhost:3000/meals")
+    fetch("http://localhost:3001/meals")
     .then(resp => resp.json())
-    .then(data => {console.log(data)
+    .then(data => {
+      console.log(data)
       setIsrecipe(data)
     })
   }, [])
-
+  
   return (
-
     <div className="App">
-     
-      {isrecipe.map(r => <RecipeCard key={r.id}meal={r.Meal} category={r.Category} area={r.Area} instructions={r.Instructions} mealthumb={r.MealThumb} video={r.Video} ingredient={r.Ingredient} source={r.Source}/>)}
+     <h1>INTERNATIONAL MEALS AND RECIPES </h1>
+     <CardContainer isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe}/>
+      
     </div>
     
     
