@@ -1,8 +1,9 @@
 
-function Favorite({islike,  isrecipe}){
+function Favorite(){
 return(
       <>
-      {isrecipe.filter(re => console.log(re === islike))}
+      
+      
       </>
 )
 }

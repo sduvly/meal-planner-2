@@ -1,37 +1,39 @@
 import {useState} from 'react'
 import ReactPlayer from "react-player";
 import Favorite from './Favorite';
-
-function RecipeCard({meal, category, area, instructions, mealthumb, video, ingredient, source, isrecipe}){
+import NavBar from './NavBar';
+function RecipeCard({recipe, addToFavorite}){
   const [isvis, setisvis] = useState(false)
-  const [islike, setislike] =  useState(true)
+  const [liked, setliked] = useState(recipe)
+
+  
+
   function newClick(e){
     console.log(e);
     setisvis(isvis => !isvis)
   }
-  function likeBtn(e){
-  console.log(e)
-  setislike(!islike)
+  function likeBtn(){
+    addToFavorite(recipe)
+    
+    setliked(liked => !liked)
+    // const newFavorites = addToFavorite.filter(like => console.log(like))
   }
-
-  function dislikeBtn(e){
-    console.log(e)
-  }
+  
 return(
   <>
-  <h2 >{meal}</h2>
-  <h1>{area}</h1>
-  <img  onClick={newClick} width="350" height="300" src={mealthumb} alt="" />
- { isvis ? <><h3>Category: {category}</h3>
-           <p> {instructions}</p>
-           <ReactPlayer width="350" height="400" url={video}/>
-           <p>{ingredient}</p>
-           <button onClick={likeBtn}className="emoji-button like">👍🏾</button>
-           <button onClick={dislikeBtn}className="emoji-button delete">👎🏾</button>
-           <a href={source} target="_blank" rel="noreferrer">{source}
+  <h2 >{recipe.Meal}</h2>
+  <h1>{recipe.Area}</h1>
+  <img  onClick={newClick} width="350" height="300" src={recipe.MealThumb} alt="" />
+ { isvis ? <><h3>Category: {recipe.category}</h3>
+           <p> {recipe.Instructions}</p>
+           <ReactPlayer width="350" height="400" url={recipe.Video}/>
+           <p>{recipe.ingredient}</p>
+          {liked ? <button onClick={likeBtn}className="emoji-button like">👍🏾</button> : null}
+           <a href={recipe.Source} target="_blank" rel="noreferrer">{recipe.Source}
            </a></>
            : null}  
-           <Favorite islike={islike}  isrecipe={isrecipe}/>
+           <Favorite liked={liked} />
+           <NavBar liked={liked}/>
 </>
 
 )
