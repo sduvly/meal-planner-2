@@ -13,21 +13,79 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.app{
+  background-color: gray;
+  position: relative;
+}
+.header{
+  
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1484300681262-5cca666b0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1327&q=80");
+  background-size: cover;
+  background-position: center;
+ display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(8px + 2vmin);
+  color: brown;
+  border-bottom: 5px solid brown;
+}
+.nav {
+  float: right;
+  
+  list-style: none;
+  margin-top: 5px;
+  padding-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav li {
+  display: inline-block;
+  margin-left: 40px;
+  
 }
+.nav-item{
+  color: brown;
+}
+.nav li a:link, 
+.nav li a:visited {
+   padding: 8px,0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.nav li a:hover, 
+.nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+.search{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
 
+}
+.search input{
+  width: 30%;
+  padding: 12px 40px;
+  
+   font-size: 45px;
+  line-height: 25px;
+  border: 2px solid brown;  
+  
+        transition: all 250ms ease-in-out;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+  
+}
+.row{
+  display: flex;
+  flex: 33.3%;
+  padding: 5px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

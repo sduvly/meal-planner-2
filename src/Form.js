@@ -33,6 +33,7 @@ fetch("http://localhost:3001/meals", {
 
 }
 return(
+    <div>
     <form onSubmit={handleSubmit} className="new-poem-form">
       <input 
       placeholder="Meal"
@@ -55,7 +56,7 @@ return(
       <textarea 
       placeholder="Instructions..."
       name="Instructions" 
-      rows={10} 
+      
       onChange={handleChange} 
       value={props.isform}  
       />
@@ -74,7 +75,7 @@ return(
       <textarea 
       placeholder="Ingredients..." 
       name="Ingredients"
-      rows={10}   
+        
       onChange={handleChange}
       value={props.isform} 
       />
@@ -90,6 +91,7 @@ return(
       onChange={handleChange}  
       />
     </form>
+    </div>
 )
 }
 
