@@ -5,9 +5,11 @@ import Favorite from './Favorite';
 function RecipeCard({meal, category, area, instructions, mealthumb, video, ingredient, source, isrecipe}){
   const [isvis, setisvis] = useState(false)
   const [islike, setislike] =  useState(true)
+  // eslint-disable-next-line no-unused-vars
   function newClick(e){
     console.log(e);
     setisvis(isvis => !isvis)
+    
   }
   function likeBtn(e){
   console.log(e)
