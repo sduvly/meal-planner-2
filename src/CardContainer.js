@@ -9,7 +9,7 @@ function CardContainer({isrecipe, isSearch, setIsSearch}){
       
         <NavBar />
         <SearchBar isSearch={isSearch} setIsSearch={setIsSearch}/>
-        {mySearch.map(r => <RecipeCard key={r.id} meal={r.Meal} category={r.Category} area={r.Area} instructions={r.Instructions} mealthumb={r.MealThumb} video={r.Video} ingredient={r.Ingredient} source={r.Source}/>)}
+        {mySearch.map(r => <RecipeCard key={r.id} meal={r.Meal} category={r.Category} area={r.Area} instructions={r.Instructions} mealthumb={r.MealThumb} video={r.Video} ingredient={r.Ingredient} source={r.Source} isrecipe={isrecipe}/>)}
         
         </>
         )
