@@ -1,6 +1,7 @@
 
 import{useState, useEffect} from "react"
 import CardContainer from "./CardContainer"
+import NavBar from "./NavBar"
 
 function App() {
   const [isrecipe, setIsrecipe] = useState([])
@@ -16,10 +17,20 @@ function App() {
   }, [])
   
   return (
-    <div className="App">
-     <h1>INTERNATIONAL MEALS AND RECIPES </h1>
+    <div class="app" >
+      <header >
+        <div className="header" >
+          <h1>INTERNATIONAL MEALS AND RECIPES </h1>
+          <NavBar  class="nav"/>
+        </div>
+      </header>
+     <section>
+     <div>
      <CardContainer isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe}/>
-      
+     
+     
+    </div>
+    </section>
     </div>
     
     

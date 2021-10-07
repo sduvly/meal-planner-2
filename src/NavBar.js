@@ -10,11 +10,11 @@ function NavBar(){
 return(
     
         <div>
-          <ul id="nav">
-            <li><a href=" ">Home</a></li>
-            <li><a href=" ">About</a></li>
-            <li><a href=" ">FAQ</a></li>
-             <li><a onClick={click} href=" "> Add New Recipe </a>{isvisible ? <Form />: null}</li>
+          <ul class="nav">
+            <li ><a class="nav-item" href=" ">Home</a></li>
+            <li><a  class="nav-item"href=" ">About</a></li>
+            <li><a class="nav-item" href=" ">FAQ</a></li>
+             <li><a class="nav-item" onClick={click} href=" "> Add New Recipe </a>{isvisible ? <Form />: null}</li>
           </ul>
         </div>
 )
