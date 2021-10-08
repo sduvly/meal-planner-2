@@ -2,10 +2,10 @@ import {useState} from 'react'
 import ReactPlayer from "react-player";
 import Favorite from './Favorite';
 
-function RecipeCard({recipe, addToFavorite}){
+function RecipeCard({recipe, addToFavorite, favoriteRecipes}){
   const [isvis, setisvis] = useState(false)
-  const [liked, setliked] =  useState(true)
-  // eslint-disable-next-line no-unused-vars
+  const [liked, setliked] = useState([recipe])
+  
   function newClick(e){
     console.log(e);
     setisvis(isvis => !isvis)
@@ -15,23 +15,18 @@ function RecipeCard({recipe, addToFavorite}){
     addToFavorite(recipe)
     
     setliked(liked => !liked)
-    // const newFavorites = addToFavorite.filter(like => console.log(like))
+    
   }
   
 return(
- 
-
-  
   <div>
-   <div class="row">
-   <h2 >{recipe.Meal}</h2>
+   <div className="row">
+   <h2 >Meal: {recipe.Meal}</h2>
    </div>
-   <h1>{recipe.Area}</h1>
+   <h1>Country: {recipe.Area}</h1>
    <div>
    <img  onClick={newClick} width="350" height="300" src={recipe.MealThumb} alt="" />
   </div>
-  
-  
   <div>
   { isvis ? <><h3>Category: {recipe.Category}</h3>
           <p> {recipe.Instructions}</p>
@@ -42,12 +37,9 @@ return(
          
            </a></>
            : null}  
-            <Favorite liked={liked} />
-           
-
-
+            <Favorite liked={liked} favoriteRecipes={favoriteRecipes}/>
 </div>
   </div>
-)
-}
+    )
+      }
 export default RecipeCard;

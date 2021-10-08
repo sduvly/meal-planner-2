@@ -1,8 +1,7 @@
-import Favorite from "./Favorite"
+
 import{useState, useEffect} from "react"
 import CardContainer from "./CardContainer"
 import NavBar from "./NavBar"
-
 
 function App() {
   const [isrecipe, setIsrecipe] = useState([])
@@ -27,9 +26,7 @@ function App() {
   }, [])
   
   return (
-
-
-    <div class="app" >
+    <div className="app" >
       <header >
         <div className="header" >
           <h1>INTERNATIONAL MEALS AND RECIPES </h1>
@@ -37,18 +34,16 @@ function App() {
         </div>
       </header>
      <section>
-     <div>
-     <CardContainer addToFavorite={addToFavorite} isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe}/>
-     <Favorite favoriteRecipes={favoriteRecipes}/> 
+     <div> 
+     <CardContainer favoriteRecipes={favoriteRecipes} addToFavorite={addToFavorite} isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe} />
      
     </div>
     </section>
-
-    </div>
-    
-    
-
+   
+     </div>
   );
 }
 
 export default App;
+
+

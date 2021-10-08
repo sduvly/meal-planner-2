@@ -5,7 +5,7 @@ function SearchBar({isSearch, setIsSearch}){
         console.log(e.target.value)
         setIsSearch(e.target.value)
     }
-return (<div class="search">
+return (<div className="search">
     <input 
             type="text" 
             placeholder="Country name...." 
