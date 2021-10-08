@@ -2,6 +2,8 @@ import Favorite from "./Favorite"
 import{useState, useEffect} from "react"
 import CardContainer from "./CardContainer"
 import NavBar from "./NavBar"
+//import BottomPage from "./BottomPage"
+
 
 
 function App() {
@@ -28,23 +30,25 @@ function App() {
   
   return (
 
-
-    <div class="app" >
+<div>
+    <section class="app" >
       <header >
         <div className="header" >
           <h1>INTERNATIONAL MEALS AND RECIPES </h1>
           <NavBar  class="nav"/>
         </div>
       </header>
-     <section>
-     <div>
-     <CardContainer addToFavorite={addToFavorite} isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe}/>
-     <Favorite favoriteRecipes={favoriteRecipes}/> 
+      </section>
+      
+      
      
-    </div>
-    </section>
-
-    </div>
+     <CardContainer addToFavorite={addToFavorite} isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe}/>
+  
+  <Favorite favoriteRecipes={favoriteRecipes}/>
+     
+  {/* <BottomPage/> */}
+    
+  </div>
     
     
 

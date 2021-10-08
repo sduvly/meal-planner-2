@@ -1,6 +1,43 @@
 {
   "meals": [
     {
+      "id": "52803",
+      "Meal": "Beef Wellington",
+     
+      "Category": "Beef",
+      "Area": "British",
+      "Instructions": "Put the mushrooms into a food processor with some seasoning and pulse to a rough paste. Scrape the paste into a pan and cook over a high heat for about 10 mins, tossing frequently, to cook out the moisture from the mushrooms. Spread out on a plate to cool.\r\nHeat in a frying pan and add a little olive oil. Season the beef and sear in the hot pan for 30 secs only on each side. (You don't want to cook it at this stage, just colour it). Remove the beef from the pan and leave to cool, then brush all over with the mustard.\r\nLay a sheet of cling film on a work surface and arrange the Parma ham slices on it, in slightly overlapping rows. With a palette knife, spread the mushroom paste over the ham, then place the seared beef fillet in the middle. Keeping a tight hold of the cling film from the edge, neatly roll the Parma ham and mushrooms around the beef to form a tight barrel shape. Twist the ends of the cling film to secure. Chill for 15-20 mins to allow the beef to set and keep its shape.\r\nRoll out the puff pastry on a floured surface to a large rectangle, the thickness of a £1 coin. Remove the cling film from the beef, then lay in the centre. Brush the surrounding pastry with egg yolk. Fold the ends over, the wrap the pastry around the beef, cutting off any excess. Turn over, so the seam is underneath, and place on a baking sheet. Brush over all the pastry with egg and chill for about 15 mins to let the pastry rest.\r\nHeat the oven to 200C, 400F, gas 6.\r\nLightly score the pastry at 1cm intervals and glaze again with beaten egg yolk. Bake for 20 minutes, then lower the oven setting to 180C, 350F, gas 4 and cook for another 15 mins. Allow to rest for 10-15 mins before slicing and serving with the side dishes of your choice. The beef should still be pink in the centre when you serve it.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/vvpprx1487325699.jpg",
+      
+      "Video": "https://www.youtube.com/watch?v=e0OEmrHzJjk&ab_channel=AlvinZhou",
+      "Ingredient": "mushrooms, Beef Fillet, 1 (2 lb.) center-cut beef tenderloin, trimmed kosher salt Freshly ground black pepper",
+
+      "Source": "http://www.goodtoknow.co.uk/recipes/164868/Gordon-Ramsay-s-beef-Wellington"
+
+    },
+    {
+      "id": "53013",
+      "Meal": "Big Mac",
+      "Category": "Beef",
+      "Area": "American",
+      "Instructions": "For the Big Mac sauce, combine all the ingredients in a bowl, season with salt and chill until ready to use.\r\n2. To make the patties, season the mince with salt and pepper and form into 4 balls using about 1/3 cup mince each. Place each onto a square of baking paper and flatten to form into four x 15cm circles. Heat oil in a large frypan over high heat. In 2 batches, cook beef patties for 1-2 minutes each side until lightly charred and cooked through. Remove from heat and keep warm. Repeat with remaining two patties.\r\n3. Carefully slice each burger bun into three acrossways, then lightly toast.\r\n4. To assemble the burgers, spread a little Big Mac sauce over the bottom base. Top with some chopped onion, shredded lettuce, slice of cheese, beef patty and some pickle slices. Top with the middle bun layer, and spread with more Big Mac sauce, onion, lettuce, pickles, beef patty and then finish with more sauce. Top with burger lid to serve.\r\n5. After waiting half an hour for your food to settle, go for a jog.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg",
+      "Video": "https://www.youtube.com/watch?v=C5J39YnnPsg",
+      "Ingredient": "400g Minced Beef, 2 tbs Olive Oil, 2 Sesame Seed Burger Buns, chopped Onion, 1/4 Iceberg Lettuce, 1/4 Cheese, 2 sliced Dill Pickles, 2 large Mayonnaise, 1 cup White wine Vinegar, pinch Pepper, 2tsp Mustard, 1 1/2 tsp Onion Salt, 1 1/2 tsp Garlic Powder, 1/2 tsp paprika",
+      "Source": "https://www.delicious.com.au/recipes/finally-recipe-worlds-top-selling-burger-big-mac/5221ee4a-279e-4a0b-8629-f442dc46822e"
+    },
+    {
+      "id": "53103",
+      "Meal": "Pizza",
+      "Category": "Chicken",
+      "Area": "American",
+      "Instructions": "For the Big Mac sauce, combine all the ingredients in a bowl, season with salt and chill until ready to use.\r\n2. To make the patties, season the mince with salt and pepper and form into 4 balls using about 1/3 cup mince each. Place each onto a square of baking paper and flatten to form into four x 15cm circles. Heat oil in a large frypan over high heat. In 2 batches, cook beef patties for 1-2 minutes each side until lightly charred and cooked through. Remove from heat and keep warm. Repeat with remaining two patties.\r\n3. Carefully slice each burger bun into three acrossways, then lightly toast.\r\n4. To assemble the burgers, spread a little Big Mac sauce over the bottom base. Top with some chopped onion, shredded lettuce, slice of cheese, beef patty and some pickle slices. Top with the middle bun layer, and spread with more Big Mac sauce, onion, lettuce, pickles, beef patty and then finish with more sauce. Top with burger lid to serve.\r\n5. After waiting half an hour for your food to settle, go for a jog.",
+      "MealThumb": "https://life-in-the-lofthouse.com/wp-content/uploads/2016/03/Hawaiian-BBQ-Chicken-PIzza_brandnew.jpg",
+      "Video": "https://www.youtube.com/watch?v=ubj4xYMxzLs&ab_channel=POPSUGARFood",
+      "Ingredient": "400g Minced Beef, 2 tbs Olive Oil, 2 Sesame Seed Burger Buns, chopped Onion, 1/4 Iceberg Lettuce, 1/4 Cheese, 2 sliced Dill Pickles, 2 large Mayonnaise, 1 cup White wine Vinegar, pinch Pepper, 2tsp Mustard, 1 1/2 tsp Onion Salt, 1 1/2 tsp Garlic Powder, 1/2 tsp paprika",
+      "Source": "https://www.delicious.com.au/recipes/finally-recipe-worlds-top-selling-burger-big-mac/5221ee4a-279e-4a0b-8629-f442dc46822e"
+    },
+    {
       "id": "52977",
       "Meal": "Corba",
       "Category": "Side Dish",
@@ -30,7 +67,7 @@
       "Area": "Turkish",
       "Instructions": "If you order kumpir in Turkey, the standard filling is first, lots of butter mashed into the potato, followed by cheese. There’s then a row of other toppings that you can just point at to your heart’s content – sweetcorn, olives, salami, coleslaw, Russian salad, allsorts – and you walk away with an over-stuffed potato because you got ever-excited by the choices on offer.\r\n\r\nGrate (roughly – you can use as much as you like) 150g of cheese.\r\nFinely chop one onion and one sweet red pepper.\r\nPut these ingredients into a large bowl with a good sprinkling of salt and pepper, chilli flakes (optional).",
       "MealThumb": "https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg",
-      "Video": "https://www.youtube.com/watch?v=IEDEtZ4UVtI",
+      "Video": "https://www.youtube.com/watch?v=skAdl3Bf08E&ab_channel=Refika%27sKitchen",
       "Ingredient": "2 large Potatoes, 2 tbs Butter, 150g Cheese, 1 large Onion, 1 large Red Pepper, 1 pinch Red Chille Flakes",
       "Source": "http://www.turkeysforlife.com/2013/10/firinda-kumpir-turkish-street-food.html"
     },
@@ -85,7 +122,7 @@
       "Area": "Canadian",
       "Instructions": "Sift together dry ingredients.\r\nMix together wet ingredients and incorporate into dry. Stir until smooth.\r\nDrop by teaspoonfuls(no bigger) into hot oil (365 degrees, no hotter), turning after a few moments until golden brown on all sides.\r\nRemove and drain.\r\nRoll in cinnamon sugar while still warm and serve.",
       "MealThumb": "https://www.themealdb.com/images/media/meals/txsupu1511815755.jpg",
-      "Video": "https://www.youtube.com/watch?v=fFLn1h80AGQ",
+      "Video": "https://www.youtube.com/watch?v=nvbm32VYbCw&ab_channel=TwoMarketGirls",
       "Ingredient": "2 cups Flour, 1/3 cup Sugar, 3 tsp Baking Powder, 1/2 tsp Salt, 1 beaten Egg, 3/4 cup Milk, 3 tbs Oil, Oil for frying, Icing Sugar",
       "Source": "http://www.geniuskitchen.com/recipe/drop-doughnuts-133877"
     },
@@ -107,21 +144,11 @@
       "Area": "Tunisian",
       "Instructions": "Peel potatoes and cut into 5cm cubes.\r\nPour 1-2 cm of olive oil into a large pan and heat up very hot. Fry potatoes until golden brown for 20 minutes, turning from time to time. Place on kitchen paper to drain.\r\nCut the peppers in half and remove seeds. Rub a little olive oil on them and place the cut side down on a baking tray. Place them under the grill. Grill until the skin is dark and bubbly. While the peppers are still hot, put them into a plastic sandwich bag and seal it. Take them out after 15 minutes and remove skins.\r\nIn the meantime, heat more olive oil another pan. Peel the onions and cut into thin rings. Fry for 15 minutes until golden brown, turning them often. Add the Ras el hanout at the end.\r\nCut the pumpkin into 5cm cubes and fry in the same pan you used for the potatoes for 10-15 minutes until it is soft and slightly browned. Place on kitchen paper.\r\nPour the remaining olive oil out of the pan and put all the cooked vegetables into the pan and mix. Whisk eggs and pour them over the vegetables. Put the lid on the pan so that the eggs cook. Put the contents of the pan onto a large chopping board, add salt and pepper and chopped and mix everything with a big knife.",
       "MealThumb": "https://www.themealdb.com/images/media/meals/1bsv1q1560459826.jpg",
-      "Video": "https://www.youtube.com/watch?v=-TFf-Zu-xQU",
+      "Video": "https://www.youtube.com/watch?v=y6h6F-yI3yE&ab_channel=clubcuisine",
       "Ingredient": "5 Large Potatoes, 2 tbs Olive Oil, 1 Green Pepper, 5 Onions, 1 tbs Ras el hanout, 500g Pumpkin, 24 skinned Eggs, pinch Salt & Pepper",
       "Source": "http://allrecipes.co.uk/recipe/12294/kafteji--tunisian-fried-vegetables-.aspx"
     },
-    {
-      "id": "53013",
-      "Meal": "Big Mac",
-      "Category": "Beef",
-      "Area": "American",
-      "Instructions": "For the Big Mac sauce, combine all the ingredients in a bowl, season with salt and chill until ready to use.\r\n2. To make the patties, season the mince with salt and pepper and form into 4 balls using about 1/3 cup mince each. Place each onto a square of baking paper and flatten to form into four x 15cm circles. Heat oil in a large frypan over high heat. In 2 batches, cook beef patties for 1-2 minutes each side until lightly charred and cooked through. Remove from heat and keep warm. Repeat with remaining two patties.\r\n3. Carefully slice each burger bun into three acrossways, then lightly toast.\r\n4. To assemble the burgers, spread a little Big Mac sauce over the bottom base. Top with some chopped onion, shredded lettuce, slice of cheese, beef patty and some pickle slices. Top with the middle bun layer, and spread with more Big Mac sauce, onion, lettuce, pickles, beef patty and then finish with more sauce. Top with burger lid to serve.\r\n5. After waiting half an hour for your food to settle, go for a jog.",
-      "MealThumb": "https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg",
-      "Video": "https://www.youtube.com/watch?v=C5J39YnnPsg",
-      "Ingredient": "400g Minced Beef, 2 tbs Olive Oil, 2 Sesame Seed Burger Buns, chopped Onion, 1/4 Iceberg Lettuce, 1/4 Cheese, 2 sliced Dill Pickles, 2 large Mayonnaise, 1 cup White wine Vinegar, pinch Pepper, 2tsp Mustard, 1 1/2 tsp Onion Salt, 1 1/2 tsp Garlic Powder, 1/2 tsp paprika",
-      "Source": "https://www.delicious.com.au/recipes/finally-recipe-worlds-top-selling-burger-big-mac/5221ee4a-279e-4a0b-8629-f442dc46822e"
-    },
+    
     {
       "id": "53027",
       "Meal": "Koshari",
@@ -185,7 +212,7 @@
       "Area": "French",
       "Instructions": "For the pastry, sift the flour and salt into the bowl of a food processor, add the butter and lard, then whizz together briefly until the mixture looks like fine breadcrumbs. Tip the mixture into a bowl, then stir in the cheese and enough of the water for the mixture to come together. Tip out onto a lightly floured surface and knead briefly until smooth. Roll out thinly and line a 23cm x 4cm loose-?bottomed fluted flan tin. Prick the base with a fork. Chill for 20 minutes.\r\n02.Melt the 75g butter in a saucepan over a low heat, then add the leeks and the salt. Cover and cook for ?10 minutes until soft. Uncover the pan, increase the heat and cook ?for 2 minutes, stirring occasionally, until the liquid has evaporated. Spoon onto a plate and leave to cool.\r\n03.Preheat the oven to 200°C/fan180°C/gas 6. Line the pastry case with baking paper and baking beans or rice and blind bake for 15-20 minutes until the edges are biscuit-coloured. Remove the paper and beans/rice and return the case to the oven for 7-10 minutes until the base is crisp and lightly golden. Remove and set aside. Reduce the oven temperature to 190°C/fan170°C/gas 5.\r\n04.Put the crème fraîche into a bowl with the whole egg, egg yolks and nutmeg. Lightly beat together, then season. Stir in the leeks. Spoon ?the mixture into the tart case and bake for 35-40 minutes until set ?and lightly golden. Remove from ?the oven and leave for 10 minutes. Take out of the tin and serve.",
       "MealThumb": "https://www.themealdb.com/images/media/meals/wssvvs1511785879.jpg",
-      "Video": "https://www.youtube.com/watch?v=vT0q5c880Rg",
+      "Video": "https://www.youtube.com/watch?v=4wrqU0vu7S4&ab_channel=LuciliaDiniz",
       "Ingredient": "75g Butter, 1kg Leek, ½ tsp Salt, 300ml Creme Fraiche, 1 Egg, 3 Egg Yolks, ¼ teaspoon Nutmeg, 225g Plain Flour, ½ tsp of Salt, 60g Butter, 60g Lard, 50g Cheddar Cheese, 2tbs Water ",
       "Source": "http://www.deliciousmagazine.co.uk/recipes/flamiche-flemish-leek-tart/"
     },
@@ -240,7 +267,7 @@
       "Area": "Italian",
       "Instructions": "Put 2 tablespoons of the oil in a large pot over medium heat. When it’s hot, add onion, carrot, celery and garlic; sprinkle with salt and pepper and cook, stirring occasionally, until vegetables are soft, 5 to 10 minutes.\r\nHeat the oven to 500 degrees. Drain the beans; if they’re canned, rinse them as well. Add them to the pot along with tomatoes and their juices and stock, rosemary and thyme. Bring to a boil, then reduce heat so the soup bubbles steadily; cover and cook, stirring once or twice to break up the tomatoes, until the flavors meld, 15 to 20 minutes.\r\nFish out and discard rosemary and thyme stems, if you like, and stir in kale. Taste and adjust seasoning. Lay bread slices on top of the stew so they cover the top and overlap as little as possible. Scatter red onion slices over the top, drizzle with the remaining 3 tablespoons oil and sprinkle with Parmesan.\r\nPut the pot in the oven and bake until the bread, onions and cheese are browned and crisp, 10 to 15 minutes. (If your pot fits under the broiler, you can also brown the top there.) Divide the soup and bread among 4 bowls and serve.",
       "MealThumb": "https://www.themealdb.com/images/media/meals/xrrwpx1487347049.jpg",
-      "strYoutube": "https://www.youtube.com/watch?v=BiQUYTBb6eQ",
+      "Video": "https://www.youtube.com/watch?v=BiQUYTBb6eQ",
       "Ingredient": "5 tbs Olive Oil, 1 chooped Onion, 1 chopped Carrot, 1 stalk chopped Celery, 1 tbs minced Garlic, 2 cups Cannellini Beans, 1 Canned Tomatoes, 4 cups of Water, 1 fresh sprig Rosemary, , 1 fresh sprig Thyme, 1 pound chopped Kale, 4 thick slices Wholegrain Bread, 1 thinly sliced Red Onion, ½ cup freshly grated Parmesan",
       "Source": "https://cooking.nytimes.com/recipes/1016052-ribollita"
     },
@@ -274,9 +301,129 @@
       "Instructions": "Preheat oven to 350 degrees F (175 degrees C). Grease a 9-inch pie dish.\r\nPlace the brown sugar and butter in a mixing bowl, and beat them together with an electric mixer until creamy and very well combined, without lumps. Beat in eggs, one at a time, incorporating the first egg before adding the next one. Add the vanilla extract and salt; beat the flour in, a little at a time, and then the milk, making a creamy batter. Pour the batter into the prepared pie dish.\r\nBake in the preheated oven for 35 minutes; remove pie, and cover the rim with aluminum foil to prevent burning. Return to oven, and bake until the middle sets and the top forms a crusty layer, about 15 more minutes. Let the pie cool to room temperature, then refrigerate for at least 1 hour before serving.",
       "MealThumb": "https://www.themealdb.com/images/media/meals/yrstur1511816601.jpg",
       "Tags": "Pie,Desert",
-      "Video": "https://www.youtube.com/watch?v=uVQ66jiL-Dc",
+      "Video": "https://www.youtube.com/watch?v=s97un0uZmhY&ab_channel=DivasCanCook",
       "Ingredient": "2 cups Brown Sugar, ¼ cup Butter, 2 Eggs, 1 tsp Vanilla Extract, 1 tsp Salt, ½ cup Plain Flour, 1 1/2 cups Milk",
       "Source": "http://allrecipes.com/recipe/213595/miraculous-canadian-sugar-pie/"
+    },
+    {
+      "id": "52812",
+      "Meal": "Beef Brisket Pot Roast",
+    
+      "Category": "Beef",
+      "Area": "American",
+      "Instructions": "1 Prepare the brisket for cooking: On one side of the brisket there should be a layer of fat, which you want. If there are any large chunks of fat, cut them off and discard them. Large pieces of fat will not be able to render out completely.\r\nUsing a sharp knife, score the fat in parallel lines, about 3/4-inch apart. Slice through the fat, not the beef. Repeat in the opposite direction to make a cross-hatch pattern.\r\nSalt the brisket well and let it sit at room temperature for 30 minutes.\r\n \r\n2 Sear the brisket: You'll need an oven-proof, thick-bottomed pot with a cover, or Dutch oven, that is just wide enough to hold the brisket roast with a little room for the onions.\r\nPat the brisket dry and place it, fatty side down, into the pot and place it on medium high heat. Cook for 5-8 minutes, lightly sizzling, until the fat side is nicely browned. (If the roast seems to be cooking too fast, turn the heat down to medium. You want a steady sizzle, not a raging sear.)\r\nTurn the brisket over and cook for a few minutes more to brown the other side.\r\n\r\n3 Sauté the onions and garlic: When the brisket has browned, remove it from the pot and set aside. There should be a couple tablespoons of fat rendered in the pot, if not, add some olive oil.\r\nAdd the chopped onions and increase the heat to high. Sprinkle a little salt on the onions. Sauté, stirring often, until the onions are lightly browned, 5-8 minutes. Stir in the garlic and cook 1-2 more minutes.\r\n \r\n4 Return brisket to pot, add herbs, stock, bring to simmer, cover, cook in oven: Preheat the oven to 300°F. Use kitchen twine to tie together the bay leaves, rosemary and thyme.\r\nMove the onions and garlic to the sides of the pot and nestle the brisket inside. Add the beef stock and the tied-up herbs. Bring the stock to a boil on the stovetop.\r\nCover the pot, place the pot in the 300°F oven and cook for 3 hours. Carefully flip the brisket every hour so it cooks evenly.\r\n \r\n5 Add carrots, continue to cook: After 3 hours, add the carrots. Cover the pot and cook for 1 hour more, or until the carrots are cooked through and the brisket is falling-apart tender.\r\n6 Remove brisket to cutting board, tent with foil: When the brisket is falling-apart tender, take the pot out of the oven and remove the brisket to a cutting board. Cover it with foil. Pull out and discard the herbs.\r\n7 Make sauce (optional): At this point you have two options. You can serve as is, or you can make a sauce with the drippings and some of the onions. If you serve as is, skip this step.\r\nTo make a sauce, remove the carrots and half of the onions, set aside and cover them with foil. Pour the ingredients that are remaining into the pot into a blender, and purée until smooth. If you want, add 1 tablespoon of mustard to the mix. Put into a small pot and keep warm.\r\n8 Slice the meat across the grain: Notice the lines of the muscle fibers of the roast. This is the \"grain\" of the meat. Slice the meat perpendicular to these lines, or across the grain (cutting this way further tenderizes the meat), in 1/4-inch to 1/2-inch slices.\r\nServe with the onions, carrots and gravy. Serve with mashed, roasted or boiled potatoes, egg noodles or polenta.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg",
+      "strTags": "Meat",
+      "Video": "https://www.youtube.com/watch?v=gh48wM6bPWQ",
+      "Ingredient": "Beef Brisket",
+  
+    
+      "Source": "http://www.simplyrecipes.com/recipes/beef_brisket_pot_roast/"
+
+    },
+    {
+      "id": "52824",
+      "Meal": "Beef Sunday Roast",
+     
+      "Category": "Beef",
+      "Area": "British",
+      "Instructions": "Cook the Broccoli and Carrots in a pan of boiling water until tender.\r\n\r\nRoast the Beef and Potatoes in the oven for 45mins, the potatoes may need to be checked regularly to not overcook.\r\n\r\nTo make the Yorkshire puddings:\r\nHeat oven to 230C/fan 210C/gas 8. Drizzle a little sunflower oil evenly into 2 x 4-hole Yorkshire pudding tins or a 12-hole non-stick muffin tin and place in the oven to heat through\r\nTo make the batter, tip 140g plain flour into a bowl and beat in four eggs until smooth. Gradually add 200ml milk and carry on beating until the mix is completely lump-free. Season with salt and pepper. Pour the batter into a jug, then remove the hot tins from the oven. Carefully and evenly pour the batter into the holes. Place the tins back in the oven and leave undisturbed for 20-25 mins until the puddings have puffed up and browned. Serve immediately.\r\n\r\nPlate up and add the Gravy as desired.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/ssrrrs1503664277.jpg",
+      "strTags": "MainMeal",
+      "Video": "https://www.youtube.com/watch?v=2l3-dBdNehY",
+      "Ingredient": "Beef",
+      
+      "Source": "https://www.bbcgoodfood.com/recipes/9020/best-yorkshire-puddings"
+    },
+    {
+      "id": "52826",
+      "Meal": "Braised Beef Chilli",
+  
+      "Category": "Beef",
+      "Area": "Mexican",
+      "Instructions": "Preheat the oven to 120C/225F/gas mark 1.\r\n\r\nTake the meat out of the fridge to de-chill. Pulse the onions and garlic in a food processor until finely chopped. Heat 2 tbsp olive oil in a large casserole and sear the meat on all sides until golden.\r\n\r\nSet to one side and add another small slug of oil to brown the chorizo. Remove and add the onion and garlic, spices, herbs and chillies then cook until soft in the chorizo oil. Season with salt and pepper and add the vinegar, tomatoes, ketchup and sugar.\r\n\r\nPut all the meat back into the pot with 400ml water (or red wine if you prefer), bring up to a simmer and cook, covered, in the low oven.\r\n\r\nAfter 2 hours, check the meat and add the beans. Cook for a further hour and just before serving, pull the meat apart with a pair of forks.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/uuqvwu1504629254.jpg",
+    
+      "Video": "https://www.youtube.com/watch?v=z4kSoJgsu6Y",
+      "Ingredient": "Beef",
+      "Source": "http://www.telegraph.co.uk/food-and-drink/recipes/braised-beef-chilli-con-carne/"
+   
+    },
+
+    {
+      "id": "52964",
+      "Meal": "Smoked Haddock Kedgeree",
+      "Category": "Breakfast",
+      "Area": "Indian",
+      "Instructions": "Melt 50g butter in a large saucepan (about 20cm across), add 1 finely chopped medium onion and cook gently over a medium heat for 5 minutes, until softened but not browned.\r\n\r\nStir in 3 split cardamom pods, ¼ tsp turmeric, 1 small cinnamon stick and 2 bay leaves, then cook for 1 minute.\r\n\r\nTip in 450g basmati rice and stir until it is all well coated in the spicy butter.\r\n\r\nPour in 1 litre chicken or fish stock, add ½ teaspoon salt and bring to the boil, stir once to release any rice from the bottom of the pan. Cover with a close-fitting lid, reduce the heat to low and leave to cook very gently for 12 minutes.\r\n\r\nMeanwhile, bring some water to the boil in a large shallow pan. Add 750g un-dyed smoked haddock fillet and simmer for 4 minutes, until the fish is just cooked. Lift it out onto a plate and leave until cool enough to handle.\r\n\r\nHard-boil 3 eggs for 8 minutes.\r\n\r\nFlake the fish, discarding any skin and bones. Drain the eggs, cool slightly, then peel and chop.\r\n\r\nUncover the rice and remove the bay leaves, cinnamon stick and cardamom pods if you wish to. Gently fork in the fish and the chopped eggs, cover again and return to the heat for 2-3 minutes, or until the fish has heated through.\r\n\r\nGently stir in almost all the 3 tbsp chopped fresh parsley, and season with a little salt and black pepper to taste. Serve scattered with the remaining parsley and garnished with 1 lemon, cut into wedges.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1550441275.jpg",
+      "Tags": "Brunch,Fish,Fusion",
+      "Video": "https://www.youtube.com/watch?v=QqdzDCWS4gQ",
+      "Ingredient": "Butter, Onion, Turmeric, Bay Leaf, Cinnamon, Rice, Eggs, Parsley, Lemon",
+      "strSource": "https://www.bbcgoodfood.com/recipes/2256/smoked-haddock-kedgeree"
+     
+    },
+    
+    {
+      "id": "52995",
+      "Meal": "BBQ Pork Sloppy Joes",
+      
+      "Category": "Pork",
+      "Area": "American",
+      "Instructions": "1\r\n\r\nPreheat oven to 450 degrees. Wash and dry all produce. Cut sweet potatoes into ½-inch-thick wedges. Toss on a baking sheet with a drizzle of oil, salt, and pepper. Roast until browned and tender, 20-25 minutes.\r\n\r\n2\r\n\r\nMeanwhile, halve and peel onion. Slice as thinly as possible until you have ¼ cup (½ cup for 4 servings); finely chop remaining onion. Peel and finely chop garlic. Halve lime; squeeze juice into a small bowl. Halve buns. Add 1 TBSP butter (2 TBSP for 4) to a separate small microwave-safe bowl; microwave until melted, 30 seconds. Brush onto cut sides of buns.\r\n\r\n3\r\n\r\nTo bowl with lime juice, add sliced onion, ¼ tsp sugar (½ tsp for 4 servings), and a pinch of salt. Stir to combine; set aside to quick-pickle.\r\n\r\n4\r\n\r\nHeat a drizzle of oil in a large pan over medium-high heat. Add chopped onion and season with salt and pepper. Cook, stirring, until softened, 4-5 minutes. Add garlic and cook until fragrant, 30 seconds more. Add pork and season with salt and pepper. Cook, breaking up meat into pieces, until browned and cooked through, 4-6 minutes.\r\n\r\n5\r\n\r\nWhile pork cooks, in a third small bowl, combine BBQ sauce, pickling liquid from onion, 3 TBSP ketchup (6 TBSP for 4 servings), ½ tsp sugar (1 tsp for 4), and ¼ cup water (⅓ cup for 4). Once pork is cooked through, add BBQ sauce mixture to pan. Cook, stirring, until sauce is thickened, 2-3 minutes. Taste and season with salt and pepper.\r\n\r\n6\r\n\r\nMeanwhile, toast buns in oven or toaster oven until golden, 3-5 minutes. Divide toasted buns between plates and fill with as much BBQ pork as you’d like. Top with pickled onion and hot sauce. Serve with sweet potato wedges on the side.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg",
+     
+      "Video": "https://www.youtube.com/watch?v=yBUHmUWWB1w&ab_channel=Chef%27sGearUK",
+      "Ingredient": "Potatoes"
+    },
+    {
+      "id": "52767",
+      "Meal": "Bakewell tart",
+      "Category": "Dessert",
+      "Area": "British",
+      "Instructions": "To make the pastry, measure the flour into a bowl and rub in the butter with your fingertips until the mixture resembles fine breadcrumbs. Add the water, mixing to form a soft dough.\r\nRoll out the dough on a lightly floured work surface and use to line a 20cm/8in flan tin. Leave in the fridge to chill for 30 minutes.\r\nPreheat the oven to 200C/400F/Gas 6 (180C fan).\r\nLine the pastry case with foil and fill with baking beans. Bake blind for about 15 minutes, then remove the beans and foil and cook for a further five minutes to dry out the base.\r\nFor the filing, spread the base of the flan generously with raspberry jam.\r\nMelt the butter in a pan, take off the heat and then stir in the sugar. Add ground almonds, egg and almond extract. Pour into the flan tin and sprinkle over the flaked almonds.\r\nBake for about 35 minutes. If the almonds seem to be browning too quickly, cover the tart loosely with foil to prevent them burning.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
+     
+      "Video": "https://www.youtube.com/watch?v=1ahpSTf_Pvk",
+      "Ingredient": "For the jam 200g/7oz raspberries 250g/9oz jam sugar For the sweet shortcrust pastry 150g/5½oz butter, chilled 25g/1oz icing suga 1 large free-range egg, beate For the filling",
+     "Source": "https://www.bbc.co.uk/food/recipes/marys_bakewell_tart_12584"
+    },
+    {
+      "id": "52855",
+      "Meal": "Banana Pancakes",
+   
+      "Category": "Dessert",
+      "Area": "American",
+      "Instructions": "In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla.\r\nHeat a large non-stick frying pan or pancake pan over a medium heat and brush with half the oil. Using half the batter, spoon two pancakes into the pan, cook for 1-2 mins each side, then tip onto a plate. Repeat the process with the remaining oil and batter. Top the pancakes with the pecans and raspberries.",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+   
+      "Video": "https://www.youtube.com/watch?v=kSKtb2Sv-_U",
+      "Ingredient": "Banana",
+
+      "Source": "https://www.bbcgoodfood.com/recipes/banana-pancakes"
+
+    },
+    {
+      "id": "5313",
+      "Meal": "Spaghetti",
+      "Category": "Dinner",
+      "Area": "American",
+      "Instructions": "For the Big Mac sauce, combine all the ingredients in a bowl, season with salt and chill until ready to use.\r\n2. To make the patties, season the mince with salt and pepper and form into 4 balls using about 1/3 cup mince each. Place each onto a square of baking paper and flatten to form into four x 15cm circles. Heat oil in a large frypan over high heat. In 2 batches, cook beef patties for 1-2 minutes each side until lightly charred and cooked through. Remove from heat and keep warm. Repeat with remaining two patties.\r\n3. Carefully slice each burger bun into three acrossways, then lightly toast.\r\n4. To assemble the burgers, spread a little Big Mac sauce over the bottom base. Top with some chopped onion, shredded lettuce, slice of cheese, beef patty and some pickle slices. Top with the middle bun layer, and spread with more Big Mac sauce, onion, lettuce, pickles, beef patty and then finish with more sauce. Top with burger lid to serve.\r\n5. After waiting half an hour for your food to settle, go for a jog.",
+      "MealThumb": "https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg",
+      "Video": "https://www.youtube.com/watch?v=ctRo3pmFaKQ&ab_channel=MasterChefWorld",
+      "Ingredient": "400g Minced Beef, 2 tbs Olive Oil, 2 Sesame Seed Burger Buns, chopped Onion, 1/4 Iceberg Lettuce, 1/4 Cheese, 2 sliced Dill Pickles, 2 large Mayonnaise, 1 cup White wine Vinegar, pinch Pepper, 2tsp Mustard, 1 1/2 tsp Onion Salt, 1 1/2 tsp Garlic Powder, 1/2 tsp paprika",
+      "Source": "https://www.delicious.com.au/recipes/finally-recipe-worlds-top-selling-burger-big-mac/5221ee4a-279e-4a0b-8629-f442dc46822e"
+    },
+    {
+      "id": "5326",
+      "Meal": "Grilled Chicken",
+      "Category": "Dinner",
+      "Area": "American",
+      "Instructions": "oak the beans in water to cover overnight.Drain. If skinless beans are unavailable, rub to loosen the skins, then discard the skins. Pat the beans dry with a towel.\r\nGrind the beans in a food mill or meat grinder.If neither appliance is available, process them in a food processor but only until the beans form a paste. (If blended too smoothly, the batter tends to fall apart during cooking.) Add the scallions, garlic, cilantro, cumin, baking powder, cayenne, salt, pepper, and coriander, if using.  Refrigerate for at least 30 minutes.\r\nShape the bean mixture into 1-inch balls.Flatten slightly and coat with flour.\r\nHeat at least 1½-inches of oil over medium heat to 365 degrees.\r\nFry the patties in batches, turning once, until golden brown on all sides, about 5 minutes.Remove with a wire mesh skimmer or slotted spoon. Serve as part of a meze or in pita bread with tomato-cucumber salad and tahina sauce.",
+      "MealThumb": "https://www.themediterraneandish.com/wp-content/uploads/2020/07/grilled-whole-chicken-recipe-10.jpg",
+      "Video": "https://www.youtube.com/watch?v=ZbyFoxGr01o&ab_channel=SisiJemimah%27sRecipes",
+      "Ingredient": "3 cups Broad Beans, 6 Spring Onions, 4 Garlic cloves, 1/4 cup Parsley, 2 tsp Cumin, 1 tsp Baking Powder, 1/2 tsp Cayenne Pepper, Sprinkling Flour, Vegetable Oil As required",
+      "Source": "https://oukosher.org/recipes/tamiya-egyptian-dried-fava-bean-fritters/"
     }
    
   ]

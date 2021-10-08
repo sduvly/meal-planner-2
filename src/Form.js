@@ -53,7 +53,7 @@ return(
       onChange={handleChange}  
       value={props.isform} 
       />
-      <textarea 
+      <input
       placeholder="Instructions..."
       name="Instructions" 
       
@@ -72,7 +72,7 @@ return(
       onChange={handleChange} 
       value={props.isform}  
       />
-      <textarea 
+      <input 
       placeholder="Ingredients..." 
       name="Ingredients"
         
