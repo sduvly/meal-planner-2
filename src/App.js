@@ -1,7 +1,8 @@
-
+import { Route} from 'react-router-dom'
 import{useState, useEffect} from "react"
 import CardContainer from "./CardContainer"
 import NavBar from "./NavBar"
+import Favorite from './Favorite'
 
 function App() {
   const [isrecipe, setIsrecipe] = useState([])
@@ -14,7 +15,7 @@ function App() {
     setFavoriteRecipes(newFavs)
   }
 
- console.log("FAVS", favoriteRecipes);
+ //console.log("FAVS", favoriteRecipes);
 
   useEffect(() => {
     fetch("http://localhost:3001/meals")
@@ -35,8 +36,13 @@ function App() {
       </header>
      <section>
      <div> 
-     <CardContainer favoriteRecipes={favoriteRecipes} addToFavorite={addToFavorite} isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe} />
-     
+     <Route exact path="/Home">
+     <CardContainer  favoriteRecipes={favoriteRecipes} addToFavorite={addToFavorite} isSearch={isSearch} setIsSearch={setIsSearch} isrecipe={isrecipe} />
+     </Route>
+    <Route exact path="/Favorite">
+      <Favorite favoriteRecipes={favoriteRecipes}/>
+    </Route>
+    
     </div>
     </section>
    

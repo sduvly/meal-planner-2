@@ -1,6 +1,6 @@
 import Form from "./Form"
 import {useState} from 'react'
-import {Link} from 'react-router-dom'
+import {Route, Link, Switch} from 'react-router-dom'
 
 function NavBar(){
     const [isvisible, setisvisible] = useState(false)
@@ -17,11 +17,16 @@ return(
         <div>
 
           <ul className="nav">
-            <li ><a className="nav-item" href=" ">Home</a></li>
+            <li ><Link to={"/Home"} className="nav-item" href=" ">Home</Link></li>
             <li><a  className="nav-item"href=" ">About</a></li>
-            <li><a onClick={myFavs} href=" ">Favorite</a></li>
-             <li ><Link to={"/form"} href=" " className="nav-item" onClick={click} > Add New Recipe {isvisible ?  <Form />: null}  </Link></li>
-          
+           
+           
+            <li><Link to={'/Favorite'} onClick={myFavs} href=" ">Favorite</Link></li>
+           
+           
+             <li ><Link to={"/recipes/form"} href=" " className="nav-item" onClick={click} > Add New Recipe {isvisible ?  <Form />: null}  </Link></li>
+             
+            
           </ul>
         </div>
 )
