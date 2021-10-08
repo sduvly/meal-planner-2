@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import ReactPlayer from "react-player";
-import Favorite from './Favorite';
+
 import styled from 'styled-components';
 
 function RecipeCard({recipe, addToFavorite, favoriteRecipes}){
