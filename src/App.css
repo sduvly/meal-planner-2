@@ -6,7 +6,7 @@
 }
 .header{
   
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1484300681262-5cca666b0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1327&q=80");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1484300681262-5cca666b0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1327&q=80");
   background-size:cover;
   background-position: center;
   display: flex;
@@ -39,7 +39,7 @@
 .nav li a:link, 
 .nav li a:visited {
    padding: 8px,0;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;

@@ -15,14 +15,13 @@ const [isform, setisform] = useState({
 
 )
 function handleChange(e){
-    //e.preventDefault()
+    e.preventDefault()
     setisform({...isform, [e.target.name]: e.target.value})
     console.log(e.target.name)
 }
 function handleSubmit(e){
     e.preventDefault()
     
-   
 console.log(e)
 fetch("http://localhost:3001/meals", {
     method:"POST",
@@ -40,7 +39,7 @@ return(
     <FormContainer>
         <form onSubmit={handleSubmit } className="new-recipe-form">
             <InputBox>
-                <span class="Details">Name</span>
+                <span className="Details">Name</span>
                 <input 
                 placeholder="Enter Dish Name..."
                 name="Meal"
@@ -49,7 +48,7 @@ return(
                 required />
             </InputBox> 
             <InputBox>
-                <span class="Details"> Category </span>
+                <span className="Details"> Category </span>
                 <input 
                 placeholder="Category"
                 name="Category"
@@ -58,7 +57,7 @@ return(
                 required/>
             </InputBox>
             <InputBox>
-                <span class="Details"> Country </span>
+                <span className="Details"> Country </span>
                 <input 
                 placeholder="Enter Country Name..."
                 name="Area"
@@ -67,7 +66,7 @@ return(
                 required/>
             </InputBox>
             <InputBox>
-                <span class="Details"> Instructions</span>
+                <span className="Details"> Instructions</span>
                 <textarea
                 placeholder="Instructions..."
                 name="Instructions" 
@@ -76,7 +75,7 @@ return(
                 required />
             </InputBox>
             <InputBox>
-                <span class="Details"> Image </span>
+                <span className="Details"> Image </span>
                 <input 
                 placeholder="Image..."
                 name="MealThumb"
@@ -85,7 +84,7 @@ return(
                 required/>
             </InputBox>
             <InputBox>
-                <span class="Details"> Video</span>
+                <span className="Details"> Video</span>
                 <input 
                 placeholder="Video URL...." 
                 name="Video"
@@ -94,7 +93,7 @@ return(
                 required/>
             </InputBox>
             <InputBox>
-                <span class="Details"> Ingredient </span>
+                <span className="Details"> Ingredient </span>
                 <textarea 
                 placeholder="Ingredients..." 
                 name="Ingredient"
@@ -103,7 +102,7 @@ return(
                 required/>
             </InputBox>
             <InputBox>
-                <span class="Details"> Recipe</span>
+                <span className="Details"> Recipe</span>
                 <input 
                 placeholder="add URL..."
                 name="Source"

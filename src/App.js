@@ -15,7 +15,7 @@ function App() {
     setFavoriteRecipes(newFavs)
   }
 
- //console.log("FAVS", favoriteRecipes);
+ console.log("FAVS", favoriteRecipes);
 
   useEffect(() => {
     fetch("http://localhost:3001/meals")
@@ -31,7 +31,7 @@ function App() {
       <header >
         <div className="header" >
           <h1>INTERNATIONAL MEALS AND RECIPES </h1>
-          <NavBar  class="nav"/>
+          <NavBar  className="nav"/>
         </div>
       </header>
      <section>
